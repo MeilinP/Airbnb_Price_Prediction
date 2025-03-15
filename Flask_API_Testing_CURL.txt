@@ -1,0 +1,14 @@
+curl -X POST "http://127.0.0.1:5000/predict" -H "Content-Type: application/json" -d '{
+  "latitude": 40.7,
+  "longitude": -73.9,
+  "minimum_nights": 3,
+  "number_of_reviews": 15,
+  "reviews_per_month": 1.5,
+  "availability_365": 180,
+  "room_type_Private room": 0,
+  "room_type_Shared room": 0,
+  "neighbourhood_group_Brooklyn": 0,
+  "neighbourhood_group_Manhattan": 1,
+  "neighbourhood_group_Queens": 0,
+  "neighbourhood_group_Staten Island": 0
+}'
